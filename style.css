@@ -1,0 +1,92 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* navbar buton radius &menu hover &color */
+.btn-rounded {
+  border-radius: 20px;
+}
+.nav-link:hover,
+.navbar-nav .nav-link:hover,
+a.link-underline-opacity-0:hover {
+  color: #006400; /* Yeşil renk kodu */
+}
+.location-color {
+  color: black;
+}
+/* main section card1.. text*/
+.p-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* information section padding&text*/
+.pad-info {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.f-text {
+  font-size: 14px;
+}
+
+.accordion-item {
+  border: none; /* Accordion item içindeki border'ı kaldırmak için */
+}
+.accordion-button {
+  border: none; /* Accordion butonunun border'ını kaldırmak için */
+}
+.accordion-collapse {
+  border: none; /* İçeriğin etrafındaki border'ı kaldırmak için*/
+}
+/* accordion section text &link &padding*/
+.fs-h2 {
+  font-size: 1.2rem;
+}
+.text-nounder {
+  font-size: 1.08rem;
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none; /*bağlantının alt çizgisini kaldırmak için*/
+}
+.pd2 {
+  padding-bottom: 0.8rem;
+  padding-top: 0.8rem;
+}
+
+.fs-l-h2 {
+  font-size: 1.2rem;
+}
+.text-l-nounder {
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none; /*bağlantının alt çizgisini kaldırmak için*/
+}
+.pd-l-2 {
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.container {
+  margin-top: 3%;
+}
+
+/* footer icons padding */
+.pd-footer {
+  padding: 0.8rem;
+}
+
+.copyright-sec {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: bolder;
+  font-size: 0.8rem;
+}

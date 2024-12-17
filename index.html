@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Eyyüp Korkmaz">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Starbucks Site Denemesi</title>
+  </head>
+  <body>
+    <!--? header navbar section -->
+    <header>
+      <nav class="navbar navbar-expand-md bg-body-tertiary">
+        <div class="container-fluid container-lg mt-1">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/icons/starbucksLogo.png"
+              alt="starbucks"
+              width="50"
+              height="50"
+            />
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-lg-center">
+              <li class="nav-item">
+                <a
+                  class="nav-link active fw-bolder"
+                  aria-current="page"
+                  href="#"
+                  >MENU</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bolder" href="#">REWARDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active fw-bolder" href="#">GIFT CARDS</a>
+              </li>
+            </ul>
+            <hr class="d-lg-none" />
+            <div class="flex ml-auto">
+              <span>
+                <a
+                  href="#"
+                  class="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 fw-bolder pe-5 location-color"
+                >
+                  <img
+                    class=""
+                    src="/assets/icons/location.svg"
+                    alt="location"
+                    width="24"
+                    height="24"
+                  />
+                  Find a Store
+                </a>
+              </span>
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-rounded text-center"
+              >
+                Sign in
+              </button>
+              <button
+                type="button"
+                class="btn btn-dark btn-rounded text-center"
+              >
+                Join now
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <hr />
+
+    <!--? main section -->
+    <main>
+      <!-- * Card1 -->
+      <div class="container-fluid container-xxl text-center px-0 pt-2 px-xxl-5">
+        <div class="row g-0" style="
+        background-color: #d50032;
+        height: 100%;">
+          <!-- Sol Resimli Alan -->
+          <div
+            class="col-12 col-md-6 d-flex align-items-center"
+           
+          >
+            <img
+              class="img-fluid"
+              src="/assets/images/card1.jpg"
+              alt="forlife"
+            />
+          </div>
+
+          <!-- Sağ Yazılı Alan -->
+          <div
+            class="col-12 col-md-6 p-5 d-flex align-items-center justify-content-center"
+            style="background-color: #d50032"
+          >
+            <div class="p-text text-center">
+              <h2 class="text-white fw-bolder">
+                Our holiday game is here to play
+              </h2>
+              <p class="fs-5 text-white">
+                Pop in for chances to win $20,000 in Delta Gift Cards or
+                Starbucks for Life!*
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-rounded fw-bolder"
+              >
+                Play now
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- * Card2 -->
+      <div class="container-fluid container-xxl text-center px-0 pt-4 px-xxl-5">
+        <div class="row g-0 style="
+        background-color: #06ce8d;
+        height: 100%;">
+          <!-- Sol Yazılı Alan -->
+          <div
+            class="col-12 col-md-6 order-2 order-md-1 p-5 d-flex align-items-center justify-content-center"
+            style="background-color: #06ce8d"
+          >
+            <div class="p-text text-center">
+              <h2 class="fw-bolder" style="color: #1e3932">Joy in every sip</h2>
+              <p class="fs-5" style="color: #1e3932">
+                Taste the magic of the holidays with a Peppermint Mocha, Caramel
+                Brulée Latte or Chestnut Praline Latte.
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-rounded fw-bolder"
+                style="color: #1e3932; outline-color: #1e3932"
+              >
+                Order now
+              </button>
+            </div>
+          </div>
+          <!-- Sağ Resimli Alan -->
+          <div
+            class="col-12 col-md-6 order-1 order-md-2 d-flex align-items-center"
+            
+          >
+            <img class="img-fluid" src="/assets/images/card2.jpg" alt="bucks" />
+          </div>
+        </div>
+      </div>
+
+      <!-- * Card3 -->
+      <div class="container-fluid container-xxl text-center px-0 pt-4 px-xxl-5">
+        <div class="row g-0" style="
+        background-color: #8e0031;
+        height: 100%;">
+          <!-- Sol Resimli Alan -->
+          <div
+            class="col-12 col-md-6 py-4 d-flex align-items-center">
+            <img
+              class="img-fluid"
+              src="/assets/images/card3.jpg"
+              alt="merrychristmas"
+            />
+          </div>
+
+          <!-- Sağ Yazılı Alan -->
+          <div
+            class="col-12 col-md-6 p-5 d-flex align-items-center justify-content-center"
+            style="background-color: #8e0031"
+          >
+            <div class="p-text text-center">
+              <h2 class="text-white fw-bolder">Merry last-minute gifts</h2>
+              <p class="fs-5 text-white">
+                There’s still time to send a holiday Starbucks eGift. Choose
+                your favorite design and share some joy via text, social media
+                or email.
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-rounded fw-bolder"
+              >
+                Send an eGift
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- * Card4 -->
+      <div class="container-fluid container-xxl text-center px-0 pt-4 px-xxl-5">
+        <div
+          class="row g-0"
+          style="
+            background-color: #f2f0eb;
+            height: 100%;
+          "
+        >
+          <!-- Sol Yazılı Alan -->
+          <div
+            class="col-12 col-md-6 order-2 order-md-1 p-5 d-flex align-items-center justify-content-center"
+            "
+          >
+            <div class="p-text text-center">
+              <h2 class="fw-bolder" style="color: #006241">
+                Unwrap your first gift
+              </h2>
+              <p class="fs-5" style="color: #006241">
+                Join Starbucks® Rewards and get a free drink with qualifying
+                purchase during your first week.**
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-rounded fw-bolder"
+                style="color: #006241"
+              >
+                Join now
+              </button>
+            </div>
+          </div>
+          <!-- Sağ Resimli Alan -->
+          <div style="background-color: #f2f0eb;" class="col-12 col-md-6 order-1 order-md-2 d-flex align-items-center" >
+            <img class="img-fluid" src="/assets/images/card4.jpg" alt="bucks" />
+          </div>
+        </div>
+      </div>
+
+      <!-- * Card5 -->
+      <div class="container-fluid container-xxl text-center px-0 pt-4 px-xxl-5">
+        <div class="row g-0" style="background-color: #8e0031; height: 100%">
+          <!-- Sol Resimli Alan -->
+          <div
+            class="col-12 col-md-6 d-flex align-items-center"
+            style="
+              background-color: #8e0031";
+            
+          >
+            <img
+              class="img-fluid"
+              src="/assets/images/card5.webp"
+              alt="feedingamerica"
+            />
+          </div>
+
+          <!-- Sağ Yazılı Alan -->
+          <div
+            class="col-12 col-md-6 p-5 d-flex align-items-center justify-content-center"
+          >
+            <div class="p-text text-center">
+              <h2 class="text-white fw-bolder">Buy a box, we’ll give back</h2>
+              <p class="fs-5 text-white">
+                In partnership with Feeding America®, protein box purchase helps
+                support hunger relief in your community.***
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-light btn-rounded fw-bolder"
+              >
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- * Card6 -->
+      <div class="container-fluid container-xxl text-center px-0 pt-4 px-xxl-5">
+        <div class="row g-0"  style="
+        background-color: #06ce8d;
+        height: 100%;
+
+      ">
+          <!-- Sol Yazılı Alan -->
+          <div
+            class="col-12 col-md-6 order-2 order-md-1 p-5 d-flex align-items-center justify-content-center"
+            style="background-color: #06ce8d"
+          >
+            <div class="p-text text-center">
+              <h2 class="fw-bolder" style="color: #006241">
+                Unwrap your first gift
+              </h2>
+              <p class="fs-5" style="color: #006241">
+                Join Starbucks® Rewards and get a free drink with qualifying
+                purchase during your first week.**
+              </p>
+              <button
+                type="button"
+                class="btn btn-outline-dark btn-rounded fw-bolder"
+                style="color: #006241"
+              >
+                Order now
+              </button>
+            </div>
+          </div>
+          <!-- Sağ Resimli Alan -->
+          <div
+            class="col-12 col-md-6 order-1 order-md-2 d-flex align-items-center"
+           
+          >
+            <img class="img-fluid" src="/assets/images/card6.jpg" alt="bucks" />
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <!-- ? Information section -->
+    <div class="container text-center">
+      <p class="f-text pad-info">
+        *No Purchase Necessary, U.S. 18+, See Official Rules for alternate
+        method. Enter by 1/5/25. *Starbucks for Life means the winner will
+        receive a daily credit for 30 years for one free food or beverage item
+        at participating Starbucks stores in the U.S. Excludes alcohol.
+      </p>
+      <p class="f-text pad-info">
+        **Valid only for new Starbucks Rewards members for 7 days from sign up.
+        Offer good at participating stores for a handcrafted menu-sized beverage
+        with qualifying purchase ($8 max value). Qualifying purchase excludes
+        alcohol, Starbucks Card and Starbucks Card reloads. Limit one per
+        member. Cannot be combined with other offers or discounts. Excludes
+        delivery services. Sign up before 1/2/2025 to be eligible.
+      </p>
+      <p class="f-text pad-info">
+        ***At participating Starbucks stores within the U.S. from 11/19/24 to
+        1/2/25, for each protein box sold, Starbucks will donate the monetary
+        equivalent of one meal to Feeding America®. $1 helps provide at least 10
+        meals secured by Feeding America on behalf of local partner food banks.
+      </p>
+    </div>
+
+    <hr>
+
+   <!-- ? Accordion section -->
+   <div class="container-fluid">
+    <div class="row">
+      <div class="accordion d-block d-lg-none" id="accordionExample">
+        <!--! about us normal-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button fs-h2"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="false"
+              aria-controls="collapseOne"
+            >
+              About Us
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Our Company</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Our Coffe</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >About Starbucks</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Starbucks Archive</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Investor Relations</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Customer Service</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--! careers normal-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              Careers
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Culture and Values</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Inclusion, Diversity, & Belonging</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >College Achievement Plan</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Alumni Community</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >U.S. Careers</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >International Careers</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--! social impact normal-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              Social Impact
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Communities</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Starbucks Foundation</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Sustainability</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Environmental and Social Impact Reporting</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--! for business normal-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFour"
+              aria-expanded="false"
+              aria-controls="collapseFour"
+            >
+              For Business Partners
+            </button>
+          </h2>
+          <div
+            id="collapseFour"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Landlord Support Center</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Suppliers</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Corporate Gift Card Sales</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Office and Foodservice Coffee</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!--! order and pick normal-->
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed fs-5"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseFive"
+              aria-expanded="false"
+              aria-controls="collapseFive"
+            >
+              Order and Pick Up
+            </button>
+          </h2>
+          <div
+            id="collapseFive"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Order on the App</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Order on the Web</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Delivery</a
+                  >
+                </li>
+
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Order and Pick Up Options</a
+                  >
+                </li>
+                <li class="pd2">
+                  <a href="#" class="link-underline-opacity-50 text-nounder"
+                    >Explore and Find Coffee for Home</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+      <!-- ? Accordion list section -->
+     <div class="row justify-content-around align-items-center">
+      <div class="d-none d-lg-flex" id="accordionExampleHorizontal">
+        <!-- ! about us list-->
+        <div class="col-2 mx-3">
+        <div class="accordion-item">
+          <h2 class="accordion-header fs-l-h2 pb-2">About Us</h2>
+          </h2>
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Our Company</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Our Coffe</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >About Starbucks</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Starbucks Archive</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Investor Relations</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Customer Service</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Contact Us</a
+                  >
+                </li>
+              </ul>
+            </div>
+      </div>
+    </div>
+        <!-- ! careers list -->
+        <div class="col-2 mx-3">
+        <div class="accordion-item">
+          <h2 class="accordion-header fs-l-h2 pb-2">Careers</h2>
+          </h2>
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Culture and Values</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Inclusion, Diversity, & Belonging</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >College Achievement Plan</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Alumni Community</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >U.S. Careers</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >International Careers</a
+                  >
+                </li>
+              </ul>
+            </div>
+        </div>
+        </div>
+        <!-- ! social impact list-->
+         <div class="col-2 mx-3">
+        <div class="accordion-item">
+          <h2 class="accordion-header fs-l-h2 pb-2"> 
+              Social Impact
+          </h2>
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Communities</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Starbucks Foundation</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Sustainability</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Environmental and Social Impact Reporting</a
+                  >
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+        <!-- ! For Business Partners list -->
+        <div class="col-2 mx-3">
+        <div class="accordion-item">
+          <h2 class="accordion-header fs-l-h2 pb-2">
+              For Business Partners
+          </h2>
+            <div class="accordion-body ">
+              <ul style="display: inline-block">
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Landlord Support Center</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Suppliers</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Corporate Gift Card Sales</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Office and Foodservice Coffee</a
+                  >
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+        <!-- ! Order and Pick Up list -->
+         <div class="col-2 mx-3">
+        <div class="accordion-item ">
+          <h2 class="accordion-header fs-l-h2 pb-2">
+              Order and Pick Up
+          </h2>
+            <div class="accordion-body">
+              <ul style="display: inline-block">
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Order on the App</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Order on the Web</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Delivery</a
+                  >
+                </li>
+
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Order and Pick Up Options</a
+                  >
+                </li>
+                <li class="pd-l-2">
+                  <a href="#" class="link-underline-opacity-50 text-l-nounder"
+                    >Explore and Find Coffee for Home</a
+                  >
+                </li>
+              </ul>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+    
+    <hr />
+
+    <!--? Footer Section-->
+    <footer class="ms-2">
+      <div class="container">
+      <!--* social icons -->
+      <ul class="list-group list-group-horizontal">
+        <li class="pd-footer">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/icons/spotify.svg"
+              alt="spotify"
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+        <li class="pd-footer">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/icons/facebook.svg"
+              alt="facebook"
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+        <li class="pd-footer">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/icons/pinterest-fill.svg"
+              alt="pinterest-fill"
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+        <li class="pd-footer">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/icons/instagram-with-circle.svg"
+              alt="instagram"
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+        <li class="pd-footer">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/icons/youtube-with-circle.svg"
+              alt="youtube"
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+        <li class="pd-footer">
+          <a class="navbar-brand" href="#">
+            <img
+              src="/assets/icons/xcom.svg"
+              alt="xcom"
+              width="32"
+              height="32"
+            />
+          </a>
+        </li>
+      </ul>
+      <!--* links -->
+      <ul class="ms-3">
+        <li class="pt-4">
+          <p>
+            <a
+              href="#"
+              class="link-dark link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Privacy Notice</a
+            >
+          </p>
+        </li>
+        <li class="pt-2">
+          <p>
+            <a
+              href="#"
+              class="link-dark link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Consumer Health Privacy Notice</a
+            >
+          </p>
+        </li>
+        <li class="pt-2">
+          <p>
+            <a
+              href="#"
+              class="link-dark link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Terms of Use</a
+            >
+          </p>
+        </li>
+        <li class="pt-2">
+          <p>
+            <a
+              href="#"
+              class="link-dark link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Do Not Share My Personal Information</a
+            >
+          </p>
+        </li>
+        <li class="pt-2">
+          <p>
+            <a
+              href="#"
+              class="link-dark link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >CA Supply Chain Act</a
+            >
+          </p>
+        </li>
+        <li class="pt-2">
+          <p>
+            <a
+              href="#"
+              class="link-dark link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Accessibility</a
+            >
+          </p>
+        </li>
+        <li class="pt-2">
+          <p>
+            <a
+              href="#"
+              class="link-dark link-offset-1 link-offset-1-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
+              >Cookie Preferences</a
+            >
+          </p>
+        </li>
+      </ul>
+      <p class="ms-3 copyright-sec">
+        © 2024 Eyyüp Korkmaz. All rights reserved.
+      </p>
+    </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
